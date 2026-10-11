@@ -1,6 +1,6 @@
-# Mental Cog
+# Mental Cogs
 
-Mental Cog is concept art for an electronic dance music (EDM) project. The
+Mental Cogs is concept art for an electronic dance music (EDM) project. The
 current visual is a black-and-white side-profile helmet with a cog behind it,
 inspired by the idea of a mind as a machine in motion.
 
