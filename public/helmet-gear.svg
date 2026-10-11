@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 448" fill="none">
+  <rect width="576" height="448" fill="#000"/>
+
+  <g id="rotating-gear" transform="translate(205 207)" stroke="#fff" stroke-linejoin="round">
+    <g id="gear-spin">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="12s"
+        repeatCount="indefinite"
+      />
+      <g id="gear-teeth" fill="#000" stroke-width="3">
+        <rect x="-15" y="-177" width="30" height="38" rx="2"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(22.5)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(45)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(67.5)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(90)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(112.5)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(135)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(157.5)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(180)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(202.5)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(225)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(247.5)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(270)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(292.5)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(315)"/>
+        <rect x="-15" y="-177" width="30" height="38" rx="2" transform="rotate(337.5)"/>
+      </g>
+      <circle r="148" fill="#000" stroke-width="5"/>
+      <circle r="127" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <g id="helmet" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <path
+      id="helmet-shell"
+      d="M105 132c36-45 87-69 143-69 68 0 121 30 155 78 20 28 31 66 40 103l-11 91-40 75-84-43-92-40-59-23-23 9-22-18-14-30c-12-24-17-48-17-75 0-20 7-39 24-58Z"
+      fill="#000"
+      stroke-width="3.5"
+    />
+
+    <path
+      id="visor"
+      d="M200 108c38-9 78-7 112 6 39 15 67 47 86 117-44-9-78-26-111-45-36-21-63-46-87-78Z"
+      fill="#000"
+      stroke-width="2.5"
+    />
+    <path
+      id="visor-highlight"
+      d="M334 180c13 4 27 17 39 34 4 6 9 14 10 19-12-2-27-10-39-19-11-9-16-18-10-34Z"
+      fill="#fff"
+      stroke="none"
+    />
+    <path
+      id="visor-eye"
+      d="M340 184c9 5 18 13 24 21-10-2-19-7-26-14-3-3-2-6 2-7Z"
+      fill="#fff"
+      stroke="#fff"
+      stroke-width="1"
+    />
+
+    <path
+      id="mouth-plate"
+      d="m337 313 92 32-38 64-78-38 13-45 11-13Z"
+      fill="#000"
+      stroke-width="3"
+    />
+
+    <g id="side-hinge" transform="translate(205 263)">
+      <g id="side-hinge-spin">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0"
+          to="-360"
+          dur="12s"
+          repeatCount="indefinite"
+        />
+        <circle r="66" fill="#000" stroke-width="3.5"/>
+        <circle r="31" stroke-width="3"/>
+        <circle r="10" stroke-width="2.5"/>
+        <circle cx="-43" cy="-36" r="3" fill="#fff" stroke="none"/>
+        <circle cx="43" cy="-36" r="3" fill="#fff" stroke="none"/>
+        <circle cx="0" cy="49" r="3" fill="#fff" stroke="none"/>
+      </g>
+    </g>
+  </g>
+
+</svg>
