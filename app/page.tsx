@@ -5,7 +5,7 @@ export default function Home() {
       <img
         className="helmet-art"
         src="/helmet-gear.svg"
-        alt="White outline of a side-profile helmet with a toothed gear behind it"
+        alt="Metallic side-profile helmet with a blue eye, silver gear, and black rotating side wheel"
       />
     </main>
   );
