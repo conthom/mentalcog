@@ -202,9 +202,6 @@
         <circle r="28" fill="url(#wheel-face)" stroke="#323c43" stroke-width="2"/>
         <circle r="11" fill="#11171c" stroke="#d6dfe5" stroke-width="2"/>
         <circle r="4" fill="url(#blue-steel)"/>
-        <circle cx="-43" cy="-36" r="3" fill="#c8d1d7"/>
-        <circle cx="43" cy="-36" r="3" fill="#c8d1d7"/>
-        <circle cx="0" cy="49" r="3" fill="#c8d1d7"/>
       </g>
     </g>
   </g>
